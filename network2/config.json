@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pablo Almada"
+  },
+  "text": {
+    "more": "Usos do Twitter pelos Ministros do STF (11/09/2016 - 11/09/2022), a partir de 2678 tweets, identificando o autor e o uso das hashtags.",
+    "intro": "Usos do Twitter pelos Ministros do STF (11/09/2016 - 11/09/2022), a partir de 2678 tweets, identificando o autor e o uso das hashtags",
+    "title": "Usos do Twitter pelos Ministros do STF e suas postagens"
+  },
+  "legend": {
+    "edgeLabel": "noedge",
+    "colorLabel": "modularity class",
+    "nodeLabel": "STF Twitter"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
